@@ -1,6 +1,8 @@
 # Bevy Book
 
-A hands-on reference for building a 2D game with Bevy 0.18  - from first window to procedural worlds, data-driven characters, collision systems, inventory, and weather effects.
+A hands-on reference for building a 2D game with Bevy 0.18 - from first window to procedural worlds, data-driven characters, collision systems, inventory, and weather effects.
+
+> **Special shoutout to Febin John James** — thank you for your support and contributions!
 
 ---
 
@@ -12,17 +14,17 @@ A hands-on reference for building a 2D game with Bevy 0.18  - from first window 
   - [1.1 Create the Project](./bevy_chap1.md#11-create-the-project)
   - [1.2 Add Bevy Dependency](./bevy_chap1.md#12-add-bevy-dependency)
   - [1.3 Speed Up Compile Times](./bevy_chap1.md#13-speed-up-compile-times-important)
-- [2. Core Architecture  - Thinking in Systems](./bevy_chap1.md#2-core-architecture--thinking-in-systems)
+- [2. Core Architecture - Thinking in Systems](./bevy_chap1.md#2-core-architecture--thinking-in-systems)
 - [3. Step-by-Step Implementation](./bevy_chap1.md#3-step-by-step-implementation)
-  - [Step 1  - Minimal Window with Camera](./bevy_chap1.md#step-1--minimal-window-with-camera)
-  - [Step 2  - Player Component (Tag Marker)](./bevy_chap1.md#step-2--player-component-tag-marker)
-  - [Step 3  - Spawn the Player (Text Placeholder)](./bevy_chap1.md#step-3--spawn-the-player-text-placeholder)
-  - [Step 4  - Player Movement System](./bevy_chap1.md#step-4--player-movement-system)
-  - [Step 5  - Register the Movement System](./bevy_chap1.md#step-5--register-the-movement-system)
+  - [Step 1 - Minimal Window with Camera](./bevy_chap1.md#step-1--minimal-window-with-camera)
+  - [Step 2 - Player Component (Tag Marker)](./bevy_chap1.md#step-2--player-component-tag-marker)
+  - [Step 3 - Spawn the Player (Text Placeholder)](./bevy_chap1.md#step-3--spawn-the-player-text-placeholder)
+  - [Step 4 - Player Movement System](./bevy_chap1.md#step-4--player-movement-system)
+  - [Step 5 - Register the Movement System](./bevy_chap1.md#step-5--register-the-movement-system)
 - [4. Adding Sprite Graphics](./bevy_chap1.md#4-adding-sprite-graphics)
   - [4.1 Spritesheet Source](./bevy_chap1.md#41-spritesheet-source)
   - [4.2 Asset Directory](./bevy_chap1.md#42-asset-directory)
-  - [4.3 Refactor  - Separate into Modules](./bevy_chap1.md#43-refactor--separate-into-modules)
+  - [4.3 Refactor - Separate into Modules](./bevy_chap1.md#43-refactor--separate-into-modules)
   - [4.4 The Player Module](./bevy_chap1.md#44-the-player-module-srcplayerrs)
 - [5. Rust Concepts Quick Reference](./bevy_chap1.md#5-rust-concepts-quick-reference)
 - [6. Bevy Memory & Performance Notes](./bevy_chap1.md#6-bevy-memory--performance-notes)
@@ -34,17 +36,17 @@ A hands-on reference for building a 2D game with Bevy 0.18  - from first window 
 ### [Chapter 2: Procedural Tilemap Generation with WFC](./bevy_chap2.md)
 
 - [1. Chapter Overview](./bevy_chap2.md#1-chapter-overview)
-- [2. Wave Function Collapse (WFC)  - How It Works](./bevy_chap2.md#2-wave-function-collapse-wfc--how-it-works)
+- [2. Wave Function Collapse (WFC) - How It Works](./bevy_chap2.md#2-wave-function-collapse-wfc--how-it-works)
 - [3. Project Setup](./bevy_chap2.md#3-project-setup)
 - [4. Architecture Overview](./bevy_chap2.md#4-architecture-overview)
 - [5. Step-by-Step Implementation](./bevy_chap2.md#5-step-by-step-implementation)
-  - [Step 1  - Tilemap Definition](./bevy_chap2.md#step-1--tilemap-definition-tilemaprs)
-  - [Step 2  - Asset Loading](./bevy_chap2.md#step-2--asset-loading-assetsrs)
-  - [Step 3  - Socket Definitions](./bevy_chap2.md#step-3--socket-definitions-socketsrs)
-  - [Step 4  - Model Builder](./bevy_chap2.md#step-4--model-builder-modelsrs)
-  - [Step 5  - Rules](./bevy_chap2.md#step-5--rules-rulesrs)
-  - [Step 6  - Generator Configuration](./bevy_chap2.md#step-6--generator-configuration-generaters)
-  - [Step 7  - Main Integration](./bevy_chap2.md#step-7--main-integration-mainrs)
+  - [Step 1 - Tilemap Definition](./bevy_chap2.md#step-1--tilemap-definition-tilemaprs)
+  - [Step 2 - Asset Loading](./bevy_chap2.md#step-2--asset-loading-assetsrs)
+  - [Step 3 - Socket Definitions](./bevy_chap2.md#step-3--socket-definitions-socketsrs)
+  - [Step 4 - Model Builder](./bevy_chap2.md#step-4--model-builder-modelsrs)
+  - [Step 5 - Rules](./bevy_chap2.md#step-5--rules-rulesrs)
+  - [Step 6 - Generator Configuration](./bevy_chap2.md#step-6--generator-configuration-generaters)
+  - [Step 7 - Main Integration](./bevy_chap2.md#step-7--main-integration-mainrs)
 - [6. Rust Concepts Introduced in This Chapter](./bevy_chap2.md#6-rust-concepts-introduced-in-this-chapter)
 - [7. Quick Weight Tuning Guide](./bevy_chap2.md#7-quick-weight-tuning-guide)
 - [8. Known Issues & Workarounds](./bevy_chap2.md#8-known-issues--workarounds)
@@ -57,7 +59,7 @@ A hands-on reference for building a 2D game with Bevy 0.18  - from first window 
 - [1. Chapter Overview](./bevy_chap3.md#1-chapter-overview)
 - [2. Project Setup](./bevy_chap3.md#2-project-setup)
 - [3. The RON Configuration File](./bevy_chap3.md#3-the-ron-configuration-file)
-- [4. Architecture  - System Flow](./bevy_chap3.md#4-architecture--system-flow)
+- [4. Architecture - System Flow](./bevy_chap3.md#4-architecture--system-flow)
 - [5. Data Types](./bevy_chap3.md#5-data-types-configrs)
 - [6. Animation Engine](./bevy_chap3.md#6-animation-engine-animationrs)
 - [7. Movement System](./bevy_chap3.md#7-movement-system-movementrs)
@@ -95,7 +97,7 @@ A hands-on reference for building a 2D game with Bevy 0.18  - from first window 
 - [4. Camera System](./bevy_chap5.md#4-camera-system-camera)
 - [5. World Scale Changes](./bevy_chap5.md#5-world-scale-changes)
 - [6. Updated main.rs](./bevy_chap5.md#6-updated-mainrs)
-- [7. Centralized Config  - Full State](./bevy_chap5.md#7-centralized-config-configrs--full-state)
+- [7. Centralized Config - Full State](./bevy_chap5.md#7-centralized-config-configrs--full-state)
 - [8. Rust Concepts Introduced](./bevy_chap5.md#8-rust-concepts-introduced)
 - [9. Controls Summary (Cumulative)](./bevy_chap5.md#9-controls-summary-cumulative)
 - [10. Tips for Further Improvement](./bevy_chap5.md#10-tips-for-further-improvement)
@@ -105,7 +107,7 @@ A hands-on reference for building a 2D game with Bevy 0.18  - from first window 
 
 - [Step 1: Set Up the Weather Module](./rain-tutorial.md#step-1-set-up-the-weather-module)
 - [Step 2: Create the Weather State](./rain-tutorial.md#step-2-create-the-weather-state)
-- [Step 3: Make It Rain  - Spawning Raindrops](./rain-tutorial.md#step-3-make-it-rain--spawning-raindrops)
+- [Step 3: Make It Rain - Spawning Raindrops](./rain-tutorial.md#step-3-make-it-rain--spawning-raindrops)
 - [Step 4: Move and Clean Up Raindrops](./rain-tutorial.md#step-4-move-and-clean-up-raindrops)
 - [Step 5: Darken the Screen](./rain-tutorial.md#step-5-darken-the-screen)
 - [Step 6: Slow the Player](./rain-tutorial.md#step-6-slow-the-player)
