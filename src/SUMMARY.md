@@ -1,7 +1,5 @@
 # Summary
 
-> **Special shoutout to Febin John James** — thank you for your support and contributions!
-
 [Introduction](./index.md)
 
 ---
