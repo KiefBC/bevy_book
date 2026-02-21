@@ -1,0 +1,12 @@
+[book]
+title = "Bevy Book"
+description = "A hands-on reference for building a 2D game with Bevy 0.18"
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
